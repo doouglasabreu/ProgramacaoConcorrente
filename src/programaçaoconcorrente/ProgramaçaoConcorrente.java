@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package programaçaoconcorrente;
+import exercicios.LambdaExpression;
+import exercicios.Exercicio1;
 
 /**
  *
@@ -15,7 +17,10 @@ public class ProgramaçaoConcorrente {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //LambdaExpression lambda = new LambdaExpression();
+        //lambda.criar();
+        Exercicio1 ex = new Exercicio1();
+        ex.ex();
     }
     
 }
