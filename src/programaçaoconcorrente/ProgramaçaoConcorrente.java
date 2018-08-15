@@ -6,6 +6,7 @@
 package programaçaoconcorrente;
 import exercicios.LambdaExpression;
 import exercicios.Exercicio1;
+import exercicios.Exercicio2;
 
 /**
  *
@@ -19,8 +20,12 @@ public class ProgramaçaoConcorrente {
     public static void main(String[] args) {
         //LambdaExpression lambda = new LambdaExpression();
         //lambda.criar();
-        Exercicio1 ex = new Exercicio1();
-        ex.ex();
+        //Exercicio1 ex = new Exercicio1();
+        //ex.ex();
+        Exercicio2 ex = new Exercicio2();
+        //ex.executar();
+        //ex.executar2();
+        ex.executar3();
     }
     
 }
