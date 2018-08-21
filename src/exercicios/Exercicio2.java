@@ -39,7 +39,7 @@ public class Exercicio2 {
                 }
 
             } catch (InterruptedException ex) {
-                Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
+                //Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
                 return;
 
             }
@@ -65,11 +65,11 @@ public class Exercicio2 {
                 br.close();
 
             } catch (FileNotFoundException ex) {
-                Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
+                //Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
             } catch (IOException ex) {
-                Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
+                //Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
             } catch (InterruptedException ex) {
-                Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
+                //Logger.getLogger(Exercicio2.class.getName()).log(Level.SEVERE, null, ex);
                 return;
             }
         }
@@ -138,8 +138,8 @@ public class Exercicio2 {
     }
     public void executa5() throws InterruptedException{
         Ex5 ex5 = new Ex5();
-        ex5.start();
         
+        ex5.start();
         ex5.join();
         
     }
